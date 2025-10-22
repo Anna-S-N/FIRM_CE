@@ -31,6 +31,7 @@ class ImportCSV:
         """
 
         self.repository = Path(repository)
+        
         self.config_filenames = (
             "scenarios",
             "generators",
@@ -61,7 +62,7 @@ class ImportCSV:
         -------
         FileNotFoundError: If the specified repository path does not exist.
         """
-
+        
         filepath = self.repository.joinpath(filename)
         if not filepath.is_file():
             raise FileNotFoundError(f"File {filepath} does not exist.")
@@ -80,7 +81,7 @@ class ImportCSV:
         (without extension) to its corresponding record dictionary.
         """
         return {fn: self.get_data(fn + ".csv") for fn in self.config_filenames}
-
+        
 
 class ImportDatafile:
     """

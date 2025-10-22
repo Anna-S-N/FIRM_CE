@@ -1,0 +1,2 @@
+id,scenario_name,resolution,allowance,firstyear,finalyear,nodes,lines,constraints,type
+0,mekong_gas,1,0.00002,2010,2019,"KH,TH,VS,VH,LAN,LAS,CH_I,MY_I,MM_I","KH-TH,KH-VS,LAN-TH,LAS-TH,KH-LAS,VS-LAS,LAN-VH,VH-VS,LAS-LAN,CH-CH_I,MY_I-TH,MM_I-TH",,single_time

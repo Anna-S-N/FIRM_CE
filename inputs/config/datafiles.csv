@@ -1,6 +1,6 @@
 id,scenarios,filename,datafile_type
-1,"nem,gas,battery,gas_hr",electricity.csv,demand
-2,"nem,gas,battery,gas_hr",solar.csv,generation
-3,"nem,gas,battery,gas_hr",wind.csv,generation
-4,"nem,gas,battery,gas_hr",flexible_annual_limit.csv,flexible_annual_limit
-5,"nem,gas,battery,gas_hr",baseload.csv,generation
+1,"mekong,mekong_gas,mekong_imports,thailand,thailand_gas,thailand_imports,KH_LS_gas,KH_LS_RE,Cambodia_gas,Cambodia_RE",electricity_solar.csv,demand
+2,"mekong,mekong_gas,mekong_imports,thailand,thailand_gas,thailand_imports,KH_LS_gas,KH_LS_RE,Cambodia_gas,Cambodia_RE",solar.csv,generation
+3,"mekong,mekong_gas,mekong_imports,thailand,thailand_gas,thailand_imports,KH_LS_gas,KH_LS_RE,Cambodia_gas,Cambodia_RE",wind.csv,generation
+4,"mekong,mekong_gas,mekong_imports,thailand,thailand_gas,thailand_imports,KH_LS_gas,KH_LS_RE,Cambodia_gas,Cambodia_RE",flexible_annual_limit.csv,flexible_annual_limit
+5,"mekong,mekong_gas,mekong_imports,thailand,thailand_gas,thailand_imports,KH_LS_gas,KH_LS_RE,Cambodia_gas,Cambodia_RE",baseload.csv,generation
