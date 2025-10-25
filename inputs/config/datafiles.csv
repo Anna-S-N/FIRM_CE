@@ -1,6 +1,6 @@
 id,scenarios,filename,datafile_type
-1,"mekong,mekong_gas,mekong_imports,thailand,thailand_gas,thailand_imports,KH_LS_gas,KH_LS_RE,Cambodia_gas,Cambodia_RE",electricity_solar.csv,demand
-2,"mekong,mekong_gas,mekong_imports,thailand,thailand_gas,thailand_imports,KH_LS_gas,KH_LS_RE,Cambodia_gas,Cambodia_RE",solar.csv,generation
-3,"mekong,mekong_gas,mekong_imports,thailand,thailand_gas,thailand_imports,KH_LS_gas,KH_LS_RE,Cambodia_gas,Cambodia_RE",wind.csv,generation
-4,"mekong,mekong_gas,mekong_imports,thailand,thailand_gas,thailand_imports,KH_LS_gas,KH_LS_RE,Cambodia_gas,Cambodia_RE",flexible_annual_limit.csv,flexible_annual_limit
-5,"mekong,mekong_gas,mekong_imports,thailand,thailand_gas,thailand_imports,KH_LS_gas,KH_LS_RE,Cambodia_gas,Cambodia_RE",baseload.csv,generation
+1,"mekong,mekong_gas,mekong_imports,thailand,thailand_gas,thailand_imports,KH_LS_gas,KH_LS_RE,Cambodia_gas,Cambodia_RE,KH_LAS_VS_gas,KH_LAS_VS_RE",electricity_solar.csv,demand
+2,"mekong,mekong_gas,mekong_imports,thailand,thailand_gas,thailand_imports,KH_LS_gas,KH_LS_RE,Cambodia_gas,Cambodia_RE,KH_LAS_VS_gas,KH_LAS_VS_RE",solar.csv,generation
+3,"mekong,mekong_gas,mekong_imports,thailand,thailand_gas,thailand_imports,KH_LS_gas,KH_LS_RE,Cambodia_gas,Cambodia_RE,KH_LAS_VS_gas,KH_LAS_VS_RE",wind.csv,generation
+4,"mekong,mekong_gas,mekong_imports,thailand,thailand_gas,thailand_imports,KH_LS_gas,KH_LS_RE,Cambodia_gas,Cambodia_RE,KH_LAS_VS_gas,KH_LAS_VS_RE",flexible_annual_limit.csv,flexible_annual_limit
+5,"mekong,mekong_gas,mekong_imports,thailand,thailand_gas,thailand_imports,KH_LS_gas,KH_LS_RE,Cambodia_gas,Cambodia_RE,KH_LAS_VS_gas,KH_LAS_VS_RE",baseload.csv,generation

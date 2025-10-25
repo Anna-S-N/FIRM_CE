@@ -1,9 +1,9 @@
 id,name,initial_power_capacity,initial_energy_capacity,duration,capex_p,capex_e,fom,vom,lifetime,discount_rate,node,charge_efficiency,discharge_efficiency,max_build_p,max_build_e,min_build_p,min_build_e,unit_type,line,scenarios,near_optimum,range_group
-0,phes_KH,0,0,0,646,57,8.21,0.3,60,0.05,KH,0.8,1,50,2000,0,0,phes,phes_connection,"mekong,mekong_gas,mekong_imports,KH_LS_gas,KH_LS_RE,Cambodia_gas,Cambodia_RE",TRUE,PHES
+0,phes_KH,0,0,0,646,57,8.21,0.3,60,0.05,KH,0.8,1,50,2000,0,0,phes,phes_connection,"mekong,mekong_gas,mekong_imports,KH_LS_gas,KH_LS_RE,Cambodia_gas,Cambodia_RE,KH_LAS_VS_gas,KH_LAS_VS_RE",TRUE,PHES
 1,phes_LAN,0,0,0,646,57,8.21,0.3,60,0.05,LAN,0.8,1,50,2000,0,0,phes,phes_connection,"mekong,mekong_gas,mekong_imports,thailand_min_imports",TRUE,PHES
-2,phes_LAS,0,0,0,646,57,8.21,0.3,60,0.05,LAS,0.8,1,50,2000,0,0,phes,phes_connection,"mekong,mekong_gas,mekong_imports,thailand_min_imports,KH_LS_gas,KH_LS_RE",TRUE,PHES
+2,phes_LAS,0,0,0,646,57,8.21,0.3,60,0.05,LAS,0.8,1,50,2000,0,0,phes,phes_connection,"mekong,mekong_gas,mekong_imports,thailand_min_imports,KH_LS_gas,KH_LS_RE,KH_LAS_VS_gas,KH_LAS_VS_RE",TRUE,PHES
 3,phes_VH,0,0,0,646,57,8.21,0.3,60,0.05,VH,0.8,1,200,5000,0,0,phes,phes_connection,"mekong,mekong_gas,mekong_imports",TRUE,PHES
-4,phes_VS,0,0,0,646,57,8.21,0.3,60,0.05,VS,0.8,1,200,5000,0,0,phes,phes_connection,"mekong,mekong_gas,mekong_imports",TRUE,PHES
+4,phes_VS,0,0,0,646,57,8.21,0.3,60,0.05,VS,0.8,1,200,5000,0,0,phes,phes_connection,"mekong,mekong_gas,mekong_imports,KH_LAS_VS_gas,KH_LAS_VS_RE",TRUE,PHES
 5,phes_CACE,0,0,0,646,57,8.21,0.3,60,0.05,CACE,0.8,1,50,500,0,0,phes,phes_connection,"thailand,thailand_gas,thailand_imports,thailand_min_imports",TRUE,PHES
 6,phes_CACW,0,0,0,646,57,8.21,0.3,60,0.05,CACW,0.8,1,50,500,0,0,phes,phes_connection,"thailand,thailand_gas,thailand_imports,thailand_min_imports",TRUE,PHES
 7,phes_CACN,0,0,0,646,57,8.21,0.3,60,0.05,CACN,0.8,1,50,500,0,0,phes,phes_connection,"thailand,thailand_gas,thailand_imports,thailand_min_imports",TRUE,PHES
@@ -12,11 +12,11 @@ id,name,initial_power_capacity,initial_energy_capacity,duration,capex_p,capex_e,
 10,phes_NEC,0,0,0,646,57,8.21,0.3,60,0.05,NEC,0.8,1,50,500,0,0,phes,phes_connection,"thailand,thailand_gas,thailand_imports,thailand_min_imports",TRUE,PHES
 11,phes_SAC,0,0,0,646,57,8.21,0.3,60,0.05,SAC,0.8,1,50,500,0,0,phes,phes_connection,"thailand,thailand_gas,thailand_imports,thailand_min_imports",TRUE,PHES
 12,phes_TH,0,0,0,646,57,8.21,0.3,60,0.05,TH,0.8,1,200,5000,0,0,phes,phes_connection,"mekong,mekong_gas,mekong_imports,ThaiNode,ThaiRE,TH_LA_RE,TH_LA_gas",TRUE,PHES
-13,bess_KH,0,0,0,45,291,21,0,20,0.05,KH,0.9,1,50,500,0,0,bess,battery_connection,"mekong,mekong_gas,mekong_imports,KH_LS_gas,KH_LS_RE,Cambodia_gas,Cambodia_RE",TRUE,PHES
+13,bess_KH,0,0,0,45,291,21,0,20,0.05,KH,0.9,1,50,500,0,0,bess,battery_connection,"mekong,mekong_gas,mekong_imports,KH_LS_gas,KH_LS_RE,Cambodia_gas,Cambodia_RE,KH_LAS_VS_gas,KH_LAS_VS_RE",TRUE,PHES
 14,bess_LAN,0,0,0,45,291,21,0,20,0.05,LAN,0.9,1,50,500,0,0,bess,battery_connection,"mekong,mekong_gas,mekong_imports",FALSE,
-15,bess_LAS,0,0,0,45,291,21,0,20,0.05,LAS,0.9,1,50,500,0,0,bess,battery_connection,"mekong,mekong_gas,mekong_imports,KH_LS_gas,KH_LS_RE",FALSE,
+15,bess_LAS,0,0,0,45,291,21,0,20,0.05,LAS,0.9,1,50,500,0,0,bess,battery_connection,"mekong,mekong_gas,mekong_imports,KH_LS_gas,KH_LS_RE,KH_LAS_VS_gas,KH_LAS_VS_RE",FALSE,
 16,bess_VH,0,0,0,45,291,21,0,20,0.05,VH,0.9,1,50,1000,0,0,bess,battery_connection,"mekong,mekong_gas,mekong_imports",FALSE,
-17,bess_VS,0,0,0,45,291,21,0,20,0.05,VS,0.9,1,50,1000,0,0,bess,battery_connection,"mekong,mekong_gas,mekong_imports",FALSE,
+17,bess_VS,0,0,0,45,291,21,0,20,0.05,VS,0.9,1,50,1000,0,0,bess,battery_connection,"mekong,mekong_gas,mekong_imports,KH_LAS_VS_gas,KH_LAS_VS_RE",FALSE,
 18,bess_CACE,0,0,0,45,291,21,0,20,0.05,CACE,0.9,1,50,500,0,0,bess,battery_connection,"thailand,thailand_gas,thailand_imports,thailand_min_imports",FALSE,
 19,bess_CACW,0,0,0,45,291,21,0,20,0.05,CACW,0.9,1,50,500,0,0,bess,battery_connection,"thailand,thailand_gas,thailand_imports,thailand_min_imports",FALSE,
 20,bess_CACN,0,0,0,45,291,21,0,20,0.05,CACN,0.9,1,50,500,0,0,bess,battery_connection,"thailand,thailand_gas,thailand_imports,thailand_min_imports",FALSE,

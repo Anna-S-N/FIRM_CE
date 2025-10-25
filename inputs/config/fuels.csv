@@ -1,7 +1,7 @@
 id,name,emissions,cost,scenarios
-0,solar,0,0,"mekong,mekong_gas,mekong_imports,thailand,thailand_gas,thailand_imports,ThaiNode,ThaiRE,TH_LA_RE,TH_LA_gas,thailand_min_imports,KH_LS_gas,KH_LS_RE,Cambodia_gas,Cambodia_RE"
-1,wind,0,0,"mekong,mekong_gas,mekong_imports,thailand,thailand_gas,thailand_imports,ThaiNode,ThaiRE,TH_LA_RE,TH_LA_gas,thailand_min_imports,KH_LS_gas,KH_LS_RE,Cambodia_gas,Cambodia_RE"
-2,water,0,0,"mekong,mekong_gas,mekong_imports,thailand,thailand_gas,thailand_imports,ThaiNode,ThaiRE,TH_LA_RE,TH_LA_gas,thailand_min_imports,KH_LS_gas,KH_LS_RE,Cambodia_gas,Cambodia_RE"
-3,gas,1,13.5,"mekong,mekong_gas,mekong_imports,thailand,thailand_gas,thailand_imports,ThaiNode,ThaiRE,TH_LA_RE,TH_LA_gas,thailand_min_imports,KH_LS_gas,KH_LS_RE,Cambodia_gas,Cambodia_RE"
-4,brown coal,1,0.7,"mekong,mekong_gas,mekong_imports,thailand,thailand_gas,thailand_imports,ThaiNode,ThaiRE,TH_LA_RE,TH_LA_gas,thailand_min_imports,KH_LS_gas,KH_LS_RE,Cambodia_gas,Cambodia_RE"
-5,black coal,1,4.6,"mekong,mekong_gas,mekong_imports,thailand,thailand_gas,thailand_imports,ThaiNode,ThaiRE,TH_LA_RE,TH_LA_gas,thailand_min_imports,KH_LS_gas,KH_LS_RE,Cambodia_gas,Cambodia_RE"
+0,solar,0,0,"mekong,mekong_gas,mekong_imports,thailand,thailand_gas,thailand_imports,ThaiNode,ThaiRE,TH_LA_RE,TH_LA_gas,thailand_min_imports,KH_LS_gas,KH_LS_RE,Cambodia_gas,Cambodia_RE,KH_LAS_VS_gas,KH_LAS_VS_RE"
+1,wind,0,0,"mekong,mekong_gas,mekong_imports,thailand,thailand_gas,thailand_imports,ThaiNode,ThaiRE,TH_LA_RE,TH_LA_gas,thailand_min_imports,KH_LS_gas,KH_LS_RE,Cambodia_gas,Cambodia_RE,KH_LAS_VS_gas,KH_LAS_VS_RE"
+2,water,0,0,"mekong,mekong_gas,mekong_imports,thailand,thailand_gas,thailand_imports,ThaiNode,ThaiRE,TH_LA_RE,TH_LA_gas,thailand_min_imports,KH_LS_gas,KH_LS_RE,Cambodia_gas,Cambodia_RE,KH_LAS_VS_gas,KH_LAS_VS_RE"
+3,gas,1,13.5,"mekong,mekong_gas,mekong_imports,thailand,thailand_gas,thailand_imports,ThaiNode,ThaiRE,TH_LA_RE,TH_LA_gas,thailand_min_imports,KH_LS_gas,KH_LS_RE,Cambodia_gas,Cambodia_RE,KH_LAS_VS_gas,KH_LAS_VS_RE"
+4,brown coal,1,0.7,"mekong,mekong_gas,mekong_imports,thailand,thailand_gas,thailand_imports,ThaiNode,ThaiRE,TH_LA_RE,TH_LA_gas,thailand_min_imports,KH_LS_gas,KH_LS_RE,Cambodia_gas,Cambodia_RE,KH_LAS_VS_gas,KH_LAS_VS_RE"
+5,black coal,1,4.6,"mekong,mekong_gas,mekong_imports,thailand,thailand_gas,thailand_imports,ThaiNode,ThaiRE,TH_LA_RE,TH_LA_gas,thailand_min_imports,KH_LS_gas,KH_LS_RE,Cambodia_gas,Cambodia_RE,KH_LAS_VS_gas,KH_LAS_VS_RE"
