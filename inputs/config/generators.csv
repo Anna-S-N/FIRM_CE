@@ -11,7 +11,7 @@ id,name,fuel,capex,fom,vom,lifetime,discount_rate,heat_rate_base,heat_rate_incr,
 9,pv_NAC,solar,671,3.6,0,30,0.05,0,0,0.001,NAC,200,0,0,pv_connection,solar,"thailand,thailand_gas,thailand_imports"
 10,pv_NEC,solar,671,3.6,0,30,0.05,0,0,0.001,NEC,200,0,0,pv_connection,solar,"thailand,thailand_gas,thailand_imports"
 11,pv_SAC,solar,671,3.6,0,30,0.05,0,0,0.001,SAC,200,0,0,pv_connection,solar,"thailand,thailand_gas,thailand_imports"
-12,pv_TH,solar,671,3.6,0,30,0.05,0,0,0.001,TH,2000,0,0,pv_connection,solar,"mekong,mekong_gas,mekong_imports"
+12,pv_TH,solar,671,3.6,0,30,0.05,0,0,0.001,TH,2000,0,0,pv_connection,solar,"mekong,mekong_gas,mekong_imports,ThaiRE,ThaiNode"
 13,wind_KH,wind,986,29.5,0,25,0.05,0,0,0.001,KH,800,0,0,onshore_wind_connection,wind,"mekong,mekong_gas,mekong_imports,KH_LS_gas,KH_LS_RE,Cambodia_gas,Cambodia_RE,KH_LAS_VS_gas,KH_LAS_VS_RE"
 14,wind_LAN,wind,986,29.5,0,25,0.05,0,0,0.001,LAN,800,0,0,onshore_wind_connection,wind,"mekong,mekong_gas,mekong_imports"
 15,wind_LAS,wind,986,29.5,0,25,0.05,0,0,0.001,LAS,800,0,0,onshore_wind_connection,wind,"mekong,mekong_gas,mekong_imports,KH_LS_gas,KH_LS_RE,KH_LAS_VS_gas,KH_LAS_VS_RE"
@@ -26,7 +26,7 @@ id,name,fuel,capex,fom,vom,lifetime,discount_rate,heat_rate_base,heat_rate_incr,
 24,wind_NAC,wind,986,29.5,0,25,0.05,0,0,0.001,NAC,200,0,0,onshore_wind_connection,wind,"thailand,thailand_gas,thailand_imports"
 25,wind_NEC,wind,986,29.5,0,25,0.05,0,0,0.001,NEC,200,0,0,onshore_wind_connection,wind,"thailand,thailand_gas,thailand_imports"
 26,wind_SAC,wind,986,29.5,0,25,0.05,0,0,0.001,SAC,200,0,0,onshore_wind_connection,wind,"thailand,thailand_gas,thailand_imports"
-27,wind_TH,wind,986,29.5,0,25,0.05,0,0,0.001,TH,2000,0,0,onshore_wind_connection,wind,"mekong,mekong_gas,mekong_imports"
+27,wind_TH,wind,986,29.5,0,25,0.05,0,0,0.001,TH,2000,0,0,onshore_wind_connection,wind,"mekong,mekong_gas,mekong_imports,ThaiRE,ThaiNode"
 28,gas_KH,gas,1000,6.909,3.969,25,0.05,720.7293,8.2115,0.265,KH,50,0,0,other_generators,flexible,"mekong_gas,KH_LS_gas,Cambodia_gas,KH_LAS_VS_gas,KH_LAS_VS_RE"
 29,gas_LAN,gas,1000,6.909,3.969,25,0.05,720.7293,8.2115,0.265,LAN,50,0,0,other_generators,flexible,mekong_gas
 30,gas_LAS,gas,1000,6.909,3.969,25,0.05,720.7293,8.2115,0.265,LAS,50,0,0,other_generators,flexible,"mekong_gas,KH_LAS_VS_gas,KH_LAS_VS_RE"
@@ -39,7 +39,7 @@ id,name,fuel,capex,fom,vom,lifetime,discount_rate,heat_rate_base,heat_rate_incr,
 37,gas_NAC,gas,1000,6.909,3.969,25,0.05,720.7293,8.2115,0.265,NAC,50,0,0,other_generators,flexible,thailand_gas
 38,gas_NEC,gas,1000,6.909,3.969,25,0.05,720.7293,8.2115,0.265,NEC,50,0,0,other_generators,flexible,thailand_gas
 39,gas_SAC,gas,1000,6.909,3.969,25,0.05,720.7293,8.2115,0.265,SAC,50,0,0,other_generators,flexible,thailand_gas
-40,gas_TH,gas,1000,6.909,3.969,25,0.05,720.7293,8.2115,0.265,TH,50,0,0,other_generators,flexible,mekong_gas
+40,gas_TH,gas,1000,6.909,3.969,25,0.05,720.7293,8.2115,0.265,TH,50,0,0,other_generators,flexible,"mekong_gas,ThaiNode"
 41,CH_imports,water,0,0,60,0,0.05,0,0,0.5,CH_I,10,0,0,other_generators,flexible,"mekong_imports,mekong_gas"
 42,MY_imports,water,0,0,60,0,0.05,0,0,0.5,MY_I,10,0,0,other_generators,flexible,"mekong_imports,thailand_imports,mekong_gas,thailand_gas"
 43,MM_imports,water,0,0,60,0,0.05,0,0,0.5,MM_I,10,0,0,other_generators,flexible,"mekong_imports,thailand_imports,mekong_gas,thailand_gas"
@@ -58,4 +58,4 @@ id,name,fuel,capex,fom,vom,lifetime,discount_rate,heat_rate_base,heat_rate_incr,
 56,RoR_NAC,water,0,48.657,5.98521,0,0.05,0,0,0.25,NAC,0,0,0.0335,other_generators,baseload,"thailand,thailand_gas,thailand_imports"
 57,RoR_NEC,water,0,48.657,5.98521,0,0.05,0,0,0.25,NEC,0,0,0.0335,other_generators,baseload,"thailand,thailand_gas,thailand_imports"
 58,RoR_SAC,water,0,48.657,5.98521,0,0.05,0,0,0.25,SAC,0,0,0.0335,other_generators,baseload,"thailand,thailand_gas,thailand_imports"
-59,RoR_TH,water,0,48.657,5.98521,0,0.05,0,0,0.25,TH,0,0,3.4,other_generators,baseload,"mekong,mekong_gas,mekong_imports"
+59,RoR_TH,water,0,48.657,5.98521,0,0.05,0,0,0.25,TH,0,0,3.4,other_generators,baseload,"mekong,mekong_gas,mekong_imports,ThaiRE,ThaiNode"
